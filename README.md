@@ -34,7 +34,7 @@ npm start
 | Key | Description |
 | --- | --- |
 | `RESEND_API_KEY` | Resend API key. If unset, the /api/contact handler logs payloads to the server and returns 200 (dev fallback). |
-| `CONTACT_TO_EMAIL` | Inbox that receives enquiries. Defaults to `hello@hanane.pro`. |
+| `CONTACT_TO_EMAIL` | Inbox that receives enquiries. Defaults to `hanane@hanane.co`. |
 | `CONTACT_FROM_EMAIL` | Verified sender on Resend. Defaults to `noreply@hanane.pro`. |
 
 ## Replacing the placeholder imagery

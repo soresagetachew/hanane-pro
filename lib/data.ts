@@ -13,7 +13,7 @@ export const siteConfig = {
   roles: ["Emcee", "TV Presenter", "Model", "Coach"] as const,
   tagline: "International Emcee · TV Presenter · Model · Coach",
   location: "London · Dubai · Global",
-  email: "hello@hanane.pro",
+  email: "hanane@hanane.co",
   phone: {
     dubai: "+971 50 688 7883",
     uk: "+44 7944 473433",
