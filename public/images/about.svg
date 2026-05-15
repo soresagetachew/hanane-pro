@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+  <rect width="600" height="800" fill="#F2F0EC"/>
+  <circle cx="300" cy="290" r="110" fill="#D6D3CC"/>
+  <rect x="150" y="430" width="300" height="370" rx="10" fill="#D6D3CC"/>
+  <text x="300" y="780" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="18" fill="#8C8884">About portrait placeholder</text>
+</svg>

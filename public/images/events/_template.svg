@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="600" fill="#F2F0EC"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#D6D3CC" stroke-width="1"/>
+  <text x="400" y="305" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="28" fill="#8C8884">Event photo</text>
+</svg>

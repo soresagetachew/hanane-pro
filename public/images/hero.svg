@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2F0EC"/>
+      <stop offset="1" stop-color="#E8E6E1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#g)"/>
+  <circle cx="400" cy="430" r="150" fill="#D6D3CC"/>
+  <rect x="220" y="600" width="360" height="500" rx="12" fill="#D6D3CC"/>
+  <text x="400" y="1140" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#8C8884">Hero portrait placeholder</text>
+</svg>
