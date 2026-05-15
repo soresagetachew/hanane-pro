@@ -26,8 +26,19 @@ export default function Footer() {
         </nav>
 
         <div className="md:text-right">
-          <p className="font-jost text-[11px] text-stone">© 2025 Hanane Spiers</p>
-          <p className="font-jost text-[11px] text-stone mt-1">hanane.pro</p>
+          <p className="font-jost text-[11px] text-stone">2026 Hanane Spiers</p>
+          {/* <p className="font-jost text-[11px] text-stone mt-1">hanane.pro</p> */}
+          <p className="font-jost text-[10px] uppercase tracking-[0.12em] text-stone/80 mt-3">
+            Developed by{" "}
+            <a
+              href="https://www.instagram.com/soraprogrammer"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-ink hover:text-warm-gold transition-colors"
+            >
+              @Zion Software Agency
+            </a>
+          </p>
         </div>
       </div>
     </footer>
