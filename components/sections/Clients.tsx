@@ -1,53 +1,55 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { FadeIn } from "@/components/ui/FadeIn";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { clients } from "@/lib/data";
 
 export default function Clients() {
-  // Duplicate list for seamless marquee
-  const row = [...clients, ...clients];
-
   return (
-    <section className="bg-white border-y border-border py-20">
+    <section id="clients" className="bg-white border-y border-border py-20 md:py-28">
       <div className="max-w-site mx-auto px-6 md:px-12">
-        <div className="text-center mb-12">
+        <FadeIn className="text-center max-w-2xl mx-auto mb-14">
           <Eyebrow>Trusted By</Eyebrow>
-          <p className="font-jost text-[13px] text-stone">
-            A selection of the brands and organisations Hanane has worked with.
+          <h2 className="font-playfair italic font-normal text-ink text-[34px] md:text-[48px] leading-[1.1]">
+            In good company.
+          </h2>
+          <p className="mt-5 font-jost text-[14px] text-stone leading-[1.85]">
+            A selection of the brands, broadcasters, and organisations Hanane has worked with
+            across the Middle East, Europe, and beyond.
           </p>
-        </div>
+        </FadeIn>
 
-        <div className="relative max-w-5xl mx-auto overflow-hidden">
-          {/* Fade vignettes */}
+        <FadeIn delay={0.1} className="max-w-6xl mx-auto">
           <div
-            aria-hidden
-            className="pointer-events-none absolute left-0 top-0 bottom-0 w-32 z-10"
-            style={{ background: "linear-gradient(to right, #fff, transparent)" }}
-          />
-          <div
-            aria-hidden
-            className="pointer-events-none absolute right-0 top-0 bottom-0 w-32 z-10"
-            style={{ background: "linear-gradient(to left, #fff, transparent)" }}
-          />
-
-          <motion.div
-            className="flex gap-12 whitespace-nowrap"
-            animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 40, ease: "linear", repeat: Infinity }}
+            className="
+              grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5
+              border-t border-l border-border
+            "
           >
-            {row.map((c, i) => (
-              <span
-                key={`${c}-${i}`}
-                className="font-playfair text-[22px] text-ink/70 italic shrink-0"
+            {clients.map((name) => (
+              <div
+                key={name}
+                className="
+                  group relative aspect-[5/2] flex items-center justify-center
+                  border-r border-b border-border bg-white
+                  transition-colors duration-300 hover:bg-off-white
+                "
               >
-                {c}
-              </span>
+                <span
+                  className="
+                    font-playfair text-[15px] md:text-[17px] text-ink/70
+                    tracking-[0.04em] text-center px-4
+                    transition-colors duration-300 group-hover:text-ink
+                  "
+                >
+                  {name}
+                </span>
+              </div>
             ))}
-          </motion.div>
-        </div>
+          </div>
+        </FadeIn>
 
-        <p className="mt-10 text-center font-jost text-[12px] text-stone italic">
+        <p className="mt-10 text-center font-jost text-[12px] text-stone italic tracking-wide">
           … and many more.
         </p>
       </div>
