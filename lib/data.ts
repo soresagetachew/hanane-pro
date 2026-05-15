@@ -49,7 +49,7 @@ export const services: Service[] = [
       "Product launches",
       "Gala dinners",
     ],
-    image: "/images/events/awards.svg",
+    image: "/images/events/awards.png",
   },
   {
     id: "model",
@@ -76,7 +76,7 @@ export const services: Service[] = [
       "Team building workshops",
       "Communication training",
     ],
-    image: "/images/events/conference.svg",
+    image: "/images/events/conference.png",
   },
 ];
 
@@ -85,31 +85,31 @@ export const eventCategories: EventCategory[] = [
     title: "Award Ceremonies",
     description:
       "High-profile galas and industry awards across the Middle East, Europe, and beyond.",
-    image: "/images/events/awards.svg",
+    image: "/images/events/awards.png",
   },
   {
     title: "Corporate Conferences",
     description:
       "Moderating panels and hosting multi-day summits for global brands and government bodies.",
-    image: "/images/events/conference.svg",
+    image: "/images/events/conference.png",
   },
   {
     title: "TV & Media",
     description:
       "On-screen presenting for international broadcast and digital media.",
-    image: "/images/events/tv.svg",
+    image: "/images/events/tv.png",
   },
   {
     title: "Brand Launches",
     description:
       "Bringing energy and precision to product launches and brand activations worldwide.",
-    image: "/images/events/brand.svg",
+    image: "/images/events/brand.png",
   },
   {
     title: "Gala Dinners",
     description:
       "Setting the tone for high-end events requiring poise, timing, and warmth.",
-    image: "/images/events/gala.svg",
+    image: "/images/events/gala.png",
   },
   {
     title: "Modelling",
