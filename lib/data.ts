@@ -52,20 +52,6 @@ export const services: Service[] = [
     image: "/images/events/awards.png",
   },
   {
-    id: "model",
-    title: "Model",
-    description:
-      "A global face for leading brands across fashion, beauty, technology, and retail. Hanane's versatility and presence have graced billboards, campaigns, catwalks, and editorial shoots worldwide.",
-    highlights: [
-      "Brand campaigns",
-      "Commercial shoots",
-      "Runway",
-      "Print editorial",
-      "Digital content",
-    ],
-    image: "/images/events/modelling.svg",
-  },
-  {
     id: "coach",
     title: "Coach & Facilitator",
     description:
