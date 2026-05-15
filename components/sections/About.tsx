@@ -13,7 +13,7 @@ export default function About() {
           <FadeIn className="md:sticky md:top-24 self-start">
             <div className="relative w-full aspect-[3/4] mx-auto max-w-md md:max-w-none">
               <Image
-                src="/images/about.png"
+                src="/images/about.jpg"
                 alt="Portrait of Hanane Spiers"
                 fill
                 sizes="(max-width: 768px) 80vw, 42vw"

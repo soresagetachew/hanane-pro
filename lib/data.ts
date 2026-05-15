@@ -49,7 +49,7 @@ export const services: Service[] = [
       "Product launches",
       "Gala dinners",
     ],
-    image: "/images/events/awards.png",
+    image: "/images/events/awards.jpg",
   },
   {
     id: "coach",
@@ -62,7 +62,7 @@ export const services: Service[] = [
       "Team building workshops",
       "Communication training",
     ],
-    image: "/images/events/conference.png",
+    image: "/images/events/conference.jpg",
   },
 ];
 
@@ -71,19 +71,19 @@ export const eventCategories: EventCategory[] = [
     title: "Award Ceremonies",
     description:
       "High-profile galas and industry awards across the Middle East, Europe, and beyond.",
-    image: "/images/events/awards.png",
+    image: "/images/events/awards.jpg",
   },
   {
     title: "Corporate Conferences",
     description:
       "Moderating panels and hosting multi-day summits for global brands and government bodies.",
-    image: "/images/events/conference.png",
+    image: "/images/events/conference.jpg",
   },
   {
     title: "TV & Media",
     description:
       "On-screen presenting for international broadcast and digital media.",
-    image: "/images/events/tv.png",
+    image: "/images/events/tv.jpg",
   },
   {
     title: "Brand Launches",
