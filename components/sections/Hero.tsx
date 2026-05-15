@@ -79,7 +79,7 @@ export default function Hero() {
             className="absolute inset-0"
           >
             <Image
-              src="/images/hero.svg"
+              src="/images/hero.jpg"
               alt="Hanane Spiers — editorial portrait"
               fill
               priority
