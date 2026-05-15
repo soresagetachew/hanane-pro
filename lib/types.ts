@@ -29,6 +29,11 @@ export interface PressOutlet {
   logo: string;
 }
 
+export interface ClientLogo {
+  src: string;
+  alt: string;
+}
+
 export interface NavLink {
   label: string;
   href: string;
