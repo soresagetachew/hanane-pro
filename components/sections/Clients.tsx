@@ -36,14 +36,7 @@ export default function Clients() {
                   transition-colors duration-300 hover:bg-off-white
                 "
               >
-                <div
-                  className="
-                    relative w-full h-full
-                    transition-all duration-300
-                    grayscale opacity-70
-                    group-hover:grayscale-0 group-hover:opacity-100
-                  "
-                >
+                <div className="relative w-full h-full">
                   <Image
                     src={logo.src}
                     alt={logo.alt}
